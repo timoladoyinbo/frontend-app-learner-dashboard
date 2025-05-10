@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-size: 16px;
+}
+a.text-white:hover{
+    color: white !important;
+    text-decoration: none !important;
+}
+.bg-primary{
+    background-color: #ff6f00 !important;
+    border-color: #ff6f00 !important;
+}
+
+.btn-outline-primary {
+    border-color: #ff6f00;
+    color: #565656;
+}
+.btn-icon.btn-icon-primary{
+    background-color: #0000;
+    color: #ff6f00;
+}
+
+a:hover{
+    color:#ff6f00 !important;
+}
+
+.pgn__bubble.pgn__bubble-primary{
+    background-color: #ff6f00;
+    color: #fff;
+}
+
+.spinner-border{
+    border: 0.25em solid #ff6f00;
+}
+
+.btn-outline-primary:not(:disabled, .disabled):active, .btn-outline-primary:not(:disabled, .disabled).active, .show > .btn-outline-primary.dropdown-toggle{
+    border-color: #ff6f00;
+}
+.btn-outline-primary.focus::before, .btn-outline-primary:focus::before{
+    border: solid 2px #ff6f00;
+}
+.btn-icon.btn-icon-primary.hover, .btn-icon.btn-icon-primary:hover, .btn-icon.btn-icon-primary.active, .btn-icon.btn-icon-primary:active{
+    background-color: #ff6f00;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #ff6f00;
+    text-decoration: none;
+    background-color: #f4eee2;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    text-decoration: none;
+    background-color: #f4eee2;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #ff6f00;
+    border-color: #f4eee2;
+}
+
+.btn-tertiary:hover {
+    color: #454545;
+    background-color: #f4eee2;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    color: #ff6f00;
+    background-color: #f4eee2;
+    border-color: #ff6f00;
+}
+
+.btn-primary:not(:disabled,disabled):active, .btn-primary:not(:disabled, .disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #ff6f00;
+    background-color: #f4eee2;
+    border-color: #ff6f00;
+}
+
+.btn-outline-primary:not(:disabled, .disabled):active, .btn-outline-primary:not(:disabled, .disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+    color: #ff6f00;
+    background-color: #f4eee2;
+}
+
+.btn-outline-primary:hover {
+    color: #ff6f00;
+    background-color: #f4eee2;
+    border-color: #ff6f00;
+}
+
+.btn-icon.btn-icon-primary.focus, .btn-icon.btn-icon-primary:focus {
+    outline: 2px transparent;
+    color: #f4eee2;
+    box-shadow: inset 0 0 0 2px #f4eee2;
+}
+
+.item-card-header .item-card-header__title-btn {
+    color: #0d1b2a;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #ff6f00;
+    box-shadow: 0 0 0 1px #ff6f00;
+    color: #454545;
+    outline: 0;
+}
+
+.form-control:hover {
+    border: 1px solid #ff6f00;
+}
+
+a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus{
+    background-color: #ff6f00 !important;
+}
+.pgn__form-checkbox-input:checked, .pgn__form-radio-input:checked, .pgn__form-switch-input:checked{
+    border-color: #ff6f00;
+}
+.pgn__form-checkbox-input:focus::before, .pgn__form-radio-input:focus::before{
+
+}
+
+.pgn__chip.pgn__chip-light.interactive:hover{
+    background-color: #787878;
+    border-color: #787878;
+}
+
+.customCourse .course-list-title{
+    font-size: 20px;
+    color: #ff6f00 !important;
+}
+
+.btn-brand.disabled, .btn-brand:disabled{
+    background-color: #787878;
+    border-color: #787878;
+}
+
+.btn-brand, .btn-brand:hover{
+    background-color: #ff6f00;
+    border-color: #ff6f00;
+}
+
+.pgn__action-row{
+    justify-content: flex-start !important;
+    margin-top: 20px;
+}
+
+.site-header-desktop .main-nav .nav-link:hover, .site-header-desktop .main-nav .nav-link:focus, .site-header-desktop .main-nav .nav-link.active, .site-header-desktop .main-nav .expanded .nav-link {
+    background: white;
+    color: #ff6f00;
+}
+.site-header-desktop .logo{
+    padding: 1.2rem;
+}
+
+
+element.style {
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #ff6f00;
+    background-color: #f4eee2;
+    border-color: #ff6f00;
+}
+
+.btn-primary.focus::before, .btn-primary:focus::before {
+    border: 0;
+}
+
+.pgn__form-checkbox-input:checked {
+    /*background-image: none;*/
+    background-color: #f4eee2;
+}
+/*.pgn__form-checkbox-input:focus, .pgn__form-radio-input:focus {*/
+/*    border-color: #ff6f00;*/
+/*}*/
+
+.pgn__form-checkbox-input:focus::before, .pgn__form-radio-input:focus::before {
+    border: 0;
+}
