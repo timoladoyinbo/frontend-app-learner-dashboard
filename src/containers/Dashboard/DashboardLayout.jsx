@@ -43,7 +43,7 @@ export const DashboardLayout = ({ children }) => {
               <div className="flex items-center space-x-4 font-inter md:!py-0 !py-4">
                 <a href="/courses" className="bg-primary text-white font-medium py-2 px-6 rounded">Discover New Course</a>
               </div>
-              <div className="customCourse">
+              <div className="customCourse mt-5">
                 {children}
               </div>
             </div>

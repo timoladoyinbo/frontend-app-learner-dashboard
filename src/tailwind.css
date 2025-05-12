@@ -181,3 +181,19 @@ element.style {
 .pgn__form-checkbox-input:focus::before, .pgn__form-radio-input:focus::before {
     border: 0;
 }
+
+#root header.site-header-desktop .main-nav a.active {
+    background: none;
+    border-bottom: 2px solid #ff6f00;
+}
+
+#root header.site-header-desktop .main-nav a.nav-link:hover {
+    border-bottom: 2px solid #ff6f00;
+}
+#no-courses-content-view a.btn-brand{
+    background: #ff6f00;
+    border-color: #ff6f00;
+}
+#no-courses-content-view a.btn-brand:hover{
+    color: white !important;
+}
