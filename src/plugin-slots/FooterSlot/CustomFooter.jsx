@@ -42,9 +42,9 @@ const FooterSlot = () => (
         <div className="">
           <h3 className="text-base lg:text-xl font-semibold text-white">Contact</h3>
           <div className="mt-4 xl:mt-8 space-y-2 lg:space-y-6">
-            <a href="#" className="block w-max text-white">+0913-705-3875</a>
-            <a href="mailto:info@ask4bg.com" className="block w-max text-white">info@ask4bg.com</a>
-            <a href="https://ui.edu.ng" target="_blank" className="block w-max text-white" rel="noreferrer">UIRF</a>
+            <a href="tel:+2347035793097" className="block w-max text-white">+234 703 579 3097</a>
+            <a href="mailto:uirf@ask4bg.org" className="block w-max text-white">uirf@ask4bg.org</a>
+            <p className="text-white">Uduimo Itsueli Foundation Building, Olajuwon Olayide Extension, Ajibode Road, Ibadan, Nigeria.</p>
           </div>
         </div>
       </div>
